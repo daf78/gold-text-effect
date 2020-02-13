@@ -6,3 +6,5 @@ Tutorial based on the YouTube video of **Coding Artist** channel - 28/01/2020
 https://www.youtube.com/channel/UC15exV5s79D_aYGADudlwpQ/about
 
 **_Source:_** https://youtu.be/8kVTahs71UE
+
+**_Test it at_** https://goldtext.netlify.com/
