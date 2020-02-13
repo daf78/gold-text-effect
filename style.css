@@ -3,3 +3,16 @@ body {
   margin: 0;
   background-color: #0b1826;
 }
+
+span {
+    color: white;
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    background-image: ;
+}
