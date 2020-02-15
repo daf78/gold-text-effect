@@ -17,14 +17,14 @@ body {
     padding: 0;
 }
 
-hr {
+/*hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #cb9b51;
     margin: 1rem 0;
     padding: 0;
-}
+}*/
 
 ul {
     list-style-type: none;
@@ -85,7 +85,7 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
     padding: 0.5rem;
@@ -104,6 +104,11 @@ a {
     color: #0b1826;
     -webkit-background-clip: padding-box;
 }*/
+
+a:active {
+  box-shadow: inset -5px -5px 17px rgba(203, 155, 81, 0.6),
+                inset 5px 5px 17px rgba(70, 37, 35, 0.12);
+}
 
 #réseaux {
     display: flex;
