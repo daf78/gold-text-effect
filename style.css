@@ -1,20 +1,20 @@
 body {
-    padding: 0;
-    margin: 0 auto;
-    background-color: #0b1826;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 85%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #0b1826;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 85%;
 }
 
 .container {
-    height: 5rem;
-    box-shadow: -5px -5px 17px rgba(203, 155, 81, 0.6),
-        5px 5px 17px rgba(70, 37, 35, 0.12);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
+  height: 5rem;
+  box-shadow: -5px -5px 17px rgba(203, 155, 81, 0.6),
+    5px 5px 17px rgba(70, 37, 35, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
 }
 
 /*hr {
@@ -27,7 +27,7 @@ body {
 }*/
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /*li a:hover {
@@ -36,68 +36,70 @@ ul {
 }*/
 
 h1 {
-    font-size: 5rem;
-    text-align: center;
-    letter-spacing: 3.5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 3.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 p {
-    text-align: justify;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 
 section {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .gold {
-    color: transparent;
-    background-image: linear-gradient(to right,
-            #462523 0,
-            #cb9b51 22%,
-            #f6e27a 45%,
-            #f6f2c0 50%,
-            #f6e27a 55%,
-            #cb9b51 78%,
-            #462523 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 a {
-    box-shadow: -5px -5px 17px rgba(203, 155, 81, 0.6),
-                5px 5px 17px rgba(70, 37, 35, 0.12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 0.5rem;
-    cursor: pointer;
-    
-    border-radius: 10px;
+  box-shadow: -5px -5px 17px rgba(203, 155, 81, 0.6),
+    5px 5px 17px rgba(70, 37, 35, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  border-radius: 10px;
 }
 
 .round {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 /*a:hover i {
@@ -107,23 +109,23 @@ a {
 
 a:active {
   box-shadow: inset -5px -5px 17px rgba(203, 155, 81, 0.6),
-                inset 5px 5px 17px rgba(70, 37, 35, 0.12);
+    inset 5px 5px 17px rgba(70, 37, 35, 0.12);
 }
 
 #réseaux {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-        letter-spacing: 1rem;
-    }
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
 
-    h2 {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 }
